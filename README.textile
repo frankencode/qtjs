@@ -1,0 +1,14 @@
+h1. qtjs
+
+qtjs is a minimum QtScript console using GNU readline.
+
+h2. Prequisites
+
+* libreadline, libreadline-dev, Qt 4.x
+
+h2. Build and run
+
+$ qmake -project
+$ qmake
+$ make && ./qtjs
+
